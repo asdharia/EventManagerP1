@@ -1,26 +1,33 @@
- db.contacts.insert({
+ db.events.insert({
 	"id": 1,
-	"userId" : 1,
-	"firstName" : "Jack",
-	"lastName"  : "Racham",
-	"email"  : "jack.racham@contact.com",
-	"cellPhone"  : "108-555-2020"
+	"eventName" : "Birthday1",
+	"eventDate" : "12/12/2015",
+	"gender"  : "male",
+	"budget"  : "1000",
+	"neighborhood"  : "Bay Area, CA"
  });
 
- db.contacts.insert({
+db.events.insert({
 	"id": 2,
-	"userId" : 2,
-	"firstName" : "Ellery",
-	"lastName"  : "Queen",
-	"email"  : "ellery.queen@contact.com",
-	"cellPhone"  : "208-555-2021"
- })
+	"eventName" : "Birthday2",
+	"eventDate" : "12/12/2015",
+	"gender"  : "male",
+	"budget"  : "1000",
+	"neighborhood"  : "Bay Area, CA"
+ });
 
-db.contacts.insert({
+db.events.insert({
 	"id": 3,
-	"userId" : 3,
-	"firstName" : "Maria",
-	"lastName"  : "Quinn",
-	"email"  : "Maria.Quinn@contact.com",
-	"cellPhone"  : "308-555-2023"
- })
+	"eventName" : "Birthday3",
+	"eventDate" : "12/12/2015",
+	"gender"  : "male",
+	"budget"  : "1000",
+	"neighborhood"  : "Bay Area, CA"
+ });
+
+db.counters.insert({
+	"id": "eventId",
+	"seq" : "4",
+ });
+
+
