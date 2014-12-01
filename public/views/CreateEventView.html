@@ -1,0 +1,15 @@
+<h2>Create a New Event</h2>
+
+<form name='newEvent' novalidate class='form-horizontal' ng-init='NewEvent()'>
+   <form-field record='eventrec' field='EventName' required='true' live='false' type='text'></form-field>
+   <form-field record='eventrec' field='EventDate' required='true' live='false' type='date'></form-field>
+   <form-field record='eventrec' field='Gender' required='true' live='false' type='text'></form-field>
+   <form-field record='eventrec' field='Budget' required='true' live='false' type='text'></form-field>
+   <form-field record='eventrec' field='Neighborhood' required='true' live='false' type='text'></form-field>
+	<div class='row form-group'>
+		<div class='col-sm-offset-2'>
+			<button class='btn btn-primary' ng-click='InsertEvent()'> Create Event </button>
+		</div>
+	</div>
+</form>
+
